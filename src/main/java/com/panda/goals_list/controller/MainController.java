@@ -60,6 +60,7 @@ public class MainController {
         }
     }
 
+
     private void updateProgressUI() {
         if (currentGoal != null) {
             progressBar.setProgress(currentGoal.getProgress());
